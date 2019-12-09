@@ -1,6 +1,8 @@
 h1 {
     text-align: center;
     font-family: "josefin Sans", cursive;
+    text-transform: uppercase;
+    
 }
 
 h3 {
@@ -9,4 +11,23 @@ h3 {
 
 body {
     letter-spacing: 2px;
+    border-top: 3px solid black;
+    border-bottom: 3px  solid black;
+}
+
+img {
+    border: 1px solid black;
+}
+
+div > img {
+    border-radius: 50%;
+}
+
+nav {
+    background: #FFB82B;
+    margin: auto;
+    text-align: center;
+    font-family: "josefin sans", cursive;
+    padding: 20px;
+    letter-spacing: 3px;
 }
