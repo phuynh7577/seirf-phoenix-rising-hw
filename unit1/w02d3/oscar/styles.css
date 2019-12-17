@@ -10,7 +10,6 @@ body {
     background-color: white;
     position: relative;
     box-sizing: border-box;
-
     margin-right: auto;    
     margin-left: auto;    
     max-width: 100%;    
@@ -23,9 +22,8 @@ body {
     font-size: 1.5em;
     align-self: center;
     padding-right: 35em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
-    position: absolute;
+    
 }
 
 .container h2 {
@@ -43,7 +41,6 @@ body {
     border-left: 3em;
     padding: 9em 5.5em 12em 5.5em;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container-blue h {
@@ -73,9 +70,7 @@ body {
 
 .contain-box {
     margin: 0 auto;
-    display: inline-block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    position: center;
+    display: flex;    
 }
 
 
@@ -102,12 +97,12 @@ body {
 }
 
 .contain-box1 img, .contain-box2 img, .contain-box3 img {
-    justify-content: center;
+    float: left;
+    
 }
 
 .container-p {
     opacity: 0.4;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contain-box p {
@@ -125,6 +120,7 @@ body {
     background-color: white;
     border-radius: 5px;
     text-decoration: none;
+    
 }
 
 .contain-box2 a {
@@ -150,6 +146,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     justify-items: center;
+    
 }
 
 .container-after {
