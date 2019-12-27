@@ -64,8 +64,8 @@ const cutWithSlave = () => {
   }
 }
 
-////////////////////////////////////////////////////////////////////////////////////////
 
+//clicking this will subtract the cost of the tool.
 const buyInventory = () => {
   if (sum >= 5 && sum < 25) {
     sum -= 5;
