@@ -19,7 +19,8 @@ h1 {
 }
 
 .container-balance {
-    margin-left: 45%;
+    margin-left: 43%;
+    margin-bottom: 1.5em;
 }
 
 .container-balance button {
@@ -33,10 +34,15 @@ h1 {
 }
 
 .container-pics {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 80px;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
+    /* padding: 80px; */
+    width: 6em;
+    margin: 0 auto;
+}
+
+.container-pics button {
+    margin-bottom: .5em;
 }
 
