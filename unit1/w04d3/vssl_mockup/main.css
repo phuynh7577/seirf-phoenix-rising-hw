@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sailboat {
+    background-image: url('img/sailboat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    left: 0;
+    top: -150px;
+}
+
+.title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 340px;
+}
+
+.title h1, h3 {
+    color: white;
+}
+
+.title h1 {
+    font-size: 85px;
+}
+
+.title h3 {
+    font-weight: lighter;
+    letter-spacing: 2px;
+    opacity: .9;
+}
+
+.container-nav {
+    height: 100px;
+    background-color: black;
+}
+
+.container-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.container-nav li {
+    line-height: 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+
+.paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.paragraph p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 65px;
+    align-content: center;
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    border-top: .5px solid rgba(0,0,0,.5);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sail, .rope, .building {
+    width: 33%;
+}
+
+.container p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    flex-wrap: wrap;
+    width: 90%;
+    opacity: .5;
+}
+
+.container h1 {
+    font-size: 26px;
+    font-weight: lighter;
+    margin-bottom: 26px;
+    margin-top: 26px;
+    opacity: .8;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.banner {
+    margin-top: 250px;
+    margin-bottom: 60px;
+    margin-left: 25px;
+    
+}
+
+
+
+
+.footer {
+    padding-top: 3px;
+    border-top: .5px solid rgba(0,0,0, .5);
+    margin-top: 2px;
+    text-align: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
