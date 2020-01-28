@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #045fa5;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+}
+
+.button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button button {
+    height: 30px;
+    width: 100px;
+    background: white;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.turn {
+    text-align: center;
+    border:2px solid hsl(206, 49%, 61%);
+    width: 630px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.turn h2 {
+    background: hsl(206, 49%, 61%);
+    font-size: 40px;
+}
+
+
+.container {
+    width: 636px;
+    height: 636px;
+    background: white;
+    margin: 1px auto;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.container div {
+    width: 210px;
+    height: 210px;
+    background: white;
+    border: 1px solid rgb(0, 0, 0);
+    margin-right: 0;
+    font-size: 180px;
+    text-align: center;
+}
+
+.container div:hover {
+    background: hsl(206, 49%, 61%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

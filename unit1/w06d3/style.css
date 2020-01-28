@@ -1,0 +1,23 @@
+* {
+    background: teal;
+}
+
+h1 {
+    text-align: center;
+}
+
+.submit {
+    text-align: center;
+    z-index: 5;
+}
+
+#list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#li {
+    display: flex;
+    justify-content: space-evenly;
+}
