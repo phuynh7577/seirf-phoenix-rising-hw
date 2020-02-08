@@ -27,19 +27,19 @@
 
 
 
-###define http
+### define http
 
-######part of the web that you can see and interact with
-
-
+###### part of the web that you can see and interact with
 
 
 
 
-###According to the article, what are the three parts of the backend?
 
 
-######a server, an application, and a database.
+### According to the article, what are the three parts of the backend?
+
+
+###### a server, an application, and a database.
 
 
 
