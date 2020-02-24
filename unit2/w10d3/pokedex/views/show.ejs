@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/app.css">  
+        <title></title>
+        <style type="text/css">
+            body {
+                background-color: lightblue;
+                color: blue;
+                text-align: center;
+            }
+            img {
+                width: 150px;
+                height: 150px;
+                cursor: pointer;
+                margin-bottom: 15px;;
+            }
+            img:hover {
+                width: 160px;
+                height: 160px;
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                border-radius: 8px;
+            }
+            .container-type {
+                background: white;
+                width: 200px;
+                height: 200px;
+                
+            }
+            .container-stats {
+                background: white;
+                width: 200px;
+                height: 200px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <a href="/pokemon/<%=id; %>/edit">Edit</a>
+        <h1><%= pokedex.name %></h1>
+        
+
+       <img src="<%= pokedex.img %>">
+
+       <div class=container>
+           <div class="container-type">
+            <h2>Type</h2>
+                    <p><%= pokedex.type %> </p>
+                </div>
+
+           <div class="container-stats">
+            <h2>Stats</h2>
+                <p>HP: <%= pokedex.stats.hp %></p>
+                <p>ATTACK: <%= pokedex.stats.attack %></p>
+                <p>DEFENSE: <%= pokedex.stats.defense %></p>
+                <p>SPEED: <%= pokedex.stats.speed %></p>
+                </div>
+            
+       </div>
+
+   
+       <a href="/pokemon">Return</a>
+
+
+
+
+
+
+
+    </body>
+</html>
