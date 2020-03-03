@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+    <nav>
+        <a href="/products">Back to Index</a>
+    </nav>
+
+    <img src=" <%= product.img; %>"></a> </br>
+
+  
+    <h1><%= product.name; %></h1> 
+    <p><%=product.description; %></p> 
+    <p>$<%=product.price; %></p> 
+
+    
+
+    <% if (product.qty <= 0) { %>
+        <h3>Out of Stock</h3>
+          <% } else { %>
+            
+              <button type="button"><a href="/products/<%=product.id; %>/buy">Buy!</button>
+            
+              <p>In Stock: <%=product.qty; %></p> 
+                <% } %>
+           
+  
+  <form action="/products/<%= product.id; %>?_method=DELETE" method="POST">
+    <input type="submit" value="DELETE"/>
+  </form>
+
+
+<a href="/products/<%=product.id; %>/edit">Edit</a> </br>
+</body>
+
+</html>

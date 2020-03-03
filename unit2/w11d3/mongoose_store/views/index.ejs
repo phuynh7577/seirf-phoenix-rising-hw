@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h1>Index Page</h1>
+  <a href="/products/new">Add New</a>
+  <ul>
+    <% for(let i = 0; i < product.length; i++){ %>
+    <li>
+    
+      <a href="/products/<%=product[i].id; %>"><img src=" <%=product[i].img; %>"></a> </br>
+      <%=product[i].name; %> </br>
+      <%=product[i].price; %>
+      <% if(product[i].qty > 0){ %>
+      <p>In Stock: <%= product[i].qty %></p>
+      <% } else { %>
+      <p>In Stock: <%= product[i].qty %></p>
+      <% } %>
+    </li>
+    <% } %>
+  </ul>
+</body>
+
+</html>

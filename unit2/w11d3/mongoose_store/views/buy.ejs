@@ -1,0 +1,7 @@
+
+
+
+<form action="/products/<%=product.id%>?_method=PUT" method="POST">
+    <input type="number" name="qty" value="<%= product.qty -= 1 %>"/> <br/>
+    <input type="submit" name="" value="Make Purchase"/>
+</form>
